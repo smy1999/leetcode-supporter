@@ -2,7 +2,7 @@
 
 > 🚀 为LeetCode刷题者量身定制的浏览器脚本，实现中英文站点智能同步，让刷题更高效！
 
-[![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/yourusername/leetcode-helper)
+[![Version](https://img.shields.io/badge/version-1.1-blue.svg)](https://github.com/yourusername/leetcode-helper)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Greasy Fork](https://img.shields.io/badge/Greasy%20Fork-安装脚本-orange.svg)](https://greasyfork.org/zh-CN/scripts/538105-leetcode%E9%A2%98%E5%8D%95%E5%8A%A9%E6%89%8B)
 [![JavaScript](https://img.shields.io/badge/language-JavaScript-yellow.svg)](https://github.com/yourusername/leetcode-helper)
@@ -11,7 +11,10 @@
 
 LeetCode题单助手是一个功能强大的用户脚本，专为LeetCode刷题用户设计。它解决了在LeetCode国际站（leetcode.com）和中文站（leetcode.cn）之间切换时无法同步进度的痛点，提供智能的数据同步和可视化增强功能。
 
+**🆕 v1.1 新增一键复制功能！**
+
 [Greasy Fork安装地址](https://greasyfork.org/zh-CN/scripts/538105-leetcode%E9%A2%98%E5%8D%95%E5%8A%A9%E6%89%8B)
+
 ### 🎯 解决的问题
 
 - ❌ 中英文站点进度不同步
@@ -25,6 +28,8 @@ LeetCode题单助手是一个功能强大的用户脚本，专为LeetCode刷题�
 - ✅ 可视化显示题目状态和难度
 - ✅ 一键中英文站点跳转
 - ✅ 实时进度统计和追踪
+- ✅ **一键复制题目标题、描述、代码**
+- ✅ **保持Markdown格式的题目描述复制**
 
 ## 🌟 核心功能
 
@@ -91,12 +96,27 @@ LeetCode题单助手是一个功能强大的用户脚本，专为LeetCode刷题�
 - 🔄 经常需要中英文对照的学习者
 - 🎯 使用中文题单但想在国际站做题的用户
 
+## 📈 版本更新
+
+### 🆕 v1.1 更新内容
+- ✨ **新增一键复制功能**
+  - 📋 题目标题复制（自动移除编号）
+  - 📄 题目描述复制（保持Markdown格式）  
+  - 💻 代码解答复制（完整保留格式）
+
+### v1.0 基础功能
+- 🔄 中英文站点数据同步
+- 🎨 题目状态可视化
+- 🚀 智能链接跳转
+- ⚙️ 个性化设置选项
+
 ## 🔒 隐私与安全
 
 ### 数据处理
 - 📱 **本地存储**：所有数据仅存储在浏览器本地
 - 🚫 **无数据收集**：不收集或上传任何个人信息
 - 🔗 **官方API**：仅访问LeetCode官方公开API接口
+- 📋 **剪贴板权限**：仅在用户主动点击复制按钮时访问
 
 ---
 
